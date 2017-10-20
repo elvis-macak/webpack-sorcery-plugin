@@ -1,0 +1,37 @@
+{
+  "name": "webpack-sorcery-plugin",
+  "version": "0.1.0",
+  "description": "Webpack plugin using sorcery to merge the chained sourcemaps",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "npm run build",
+    "build": "./node_modules/.bin/babel src --out-dir dist",
+    "lint": "./node_modules/.bin/eslint src; exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elvis-macak/webpack-sorcery-plugin.git"
+  },
+  "keywords": [
+    "sorcery",
+    "webpack",
+    "source-map"
+  ],
+  "author": "elvis@lnmpy.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elvis-macak/webpack-sorcery-plugin/issues"
+  },
+  "homepage": "https://github.com/elvis-macak/webpack-sorcery-plugin",
+  "dependencies": {
+    "sorcery": "0.10.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "eslint": "^4.9.0",
+    "webpack": "^2.2.0"
+  },
+ "peerDependencies": {
+    "webpack": ">=2.2.0 <4.0.0"
+  }
+}

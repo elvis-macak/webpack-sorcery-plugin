@@ -1,6 +1,6 @@
 {
   "name": "webpack-sorcery-plugin",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Webpack plugin using sorcery to merge the chained sourcemaps",
   "main": "dist/index.js",
   "scripts": {
